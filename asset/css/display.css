@@ -67,8 +67,8 @@ th{
 }
 td{
     border: solid gray;
-    height: 40px;
-    width: auto;
+    height: 70px;
+    width: 50px;
 }
 #table_div{
     padding-inline-start: 10px;

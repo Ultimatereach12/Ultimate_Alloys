@@ -67,7 +67,7 @@ th{
 }
 td{
     border: solid gray;
-    height: auto;
+    height: 40px;
     width: auto;
 }
 #table_div{

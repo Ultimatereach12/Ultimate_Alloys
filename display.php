@@ -62,7 +62,7 @@ if (!$login){
     </div>
     <br>
     <div class="row">
-        <div class="col-md-12" style="padding-inline-start: 30px">
+        <div class="col-md-10" style="padding-inline-start: 30px; height: 500px;">
             <div class="card">
                 <form method="post" name="first" id="first">
                     <div class="table-responsive" id="table_div">
@@ -755,7 +755,7 @@ if (!$login){
                         <td><?php echo $reget11['des']; ?></td>
                         <td><?php echo $reget11['note']; ?></td>
                     </tr>
-                    <label id="11_red" for="red" hidden></label>
+                    <label id="13_red" for="red" hidden></label>
                 <?php }
             }
             ?>
@@ -822,7 +822,7 @@ if (!$login){
                         <td><?php echo $reget11['des']; ?></td>
                         <td><?php echo $reget11['note']; ?></td>
                     </tr>
-                    <label id="11_red" for="red" hidden></label>
+                    <label id="14_red" for="red" hidden></label>
                 <?php }
             }
             ?>
@@ -889,7 +889,7 @@ if (!$login){
                         <td><?php echo $reget11['des']; ?></td>
                         <td><?php echo $reget11['note']; ?></td>
                     </tr>
-                    <label id="11_red" for="red" hidden></label>
+                    <label id="15_red" for="red" hidden></label>
                 <?php }
             }
             ?>
@@ -956,7 +956,7 @@ if (!$login){
                         <td><?php echo $reget11['des']; ?></td>
                         <td><?php echo $reget11['note']; ?></td>
                     </tr>
-                    <label id="11_red" for="red" hidden></label>
+                    <label id="16_red" for="red" hidden></label>
                 <?php }
             }
             ?>
@@ -1023,7 +1023,7 @@ if (!$login){
                         <td><?php echo $reget11['des']; ?></td>
                         <td><?php echo $reget11['note']; ?></td>
                     </tr>
-                    <label id="11_red" for="red" hidden></label>
+                    <label id="17_red" for="red" hidden></label>
                 <?php }
             }
             ?>
@@ -1090,7 +1090,7 @@ if (!$login){
                         <td><?php echo $reget11['des']; ?></td>
                         <td><?php echo $reget11['note']; ?></td>
                     </tr>
-                    <label id="11_red" for="red" hidden></label>
+                    <label id="18_red" for="red" hidden></label>
                 <?php }
             }
             ?>
@@ -1157,7 +1157,7 @@ if (!$login){
                         <td><?php echo $reget11['des']; ?></td>
                         <td><?php echo $reget11['note']; ?></td>
                     </tr>
-                    <label id="11_red" for="red" hidden></label>
+                    <label id="19_red" for="red" hidden></label>
                 <?php }
             }
             ?>
@@ -1224,7 +1224,7 @@ if (!$login){
                         <td><?php echo $reget11['des']; ?></td>
                         <td><?php echo $reget11['note']; ?></td>
                     </tr>
-                    <label id="11_red" for="red" hidden></label>
+                    <label id="110_red" for="red" hidden></label>
                 <?php }
             }
             ?>
@@ -1291,7 +1291,7 @@ if (!$login){
                         <td><?php echo $reget11['des']; ?></td>
                         <td><?php echo $reget11['note']; ?></td>
                     </tr>
-                    <label id="11_red" for="red" hidden></label>
+                    <label id="111_red" for="red" hidden></label>
                 <?php }
             }
             ?>
@@ -1358,7 +1358,7 @@ if (!$login){
                         <td><?php echo $reget11['des']; ?></td>
                         <td><?php echo $reget11['note']; ?></td>
                     </tr>
-                    <label id="11_red" for="red" hidden></label>
+                    <label id="112_red" for="red" hidden></label>
                 <?php }
             }
             ?>
@@ -1425,7 +1425,7 @@ if (!$login){
                         <td><?php echo $reget11['des']; ?></td>
                         <td><?php echo $reget11['note']; ?></td>
                     </tr>
-                    <label id="11_red" for="red" hidden></label>
+                    <label id="113_red" for="red" hidden></label>
                 <?php }
             }
             ?>
@@ -1492,7 +1492,7 @@ if (!$login){
                         <td><?php echo $reget11['des']; ?></td>
                         <td><?php echo $reget11['note']; ?></td>
                     </tr>
-                    <label id="11_red" for="red" hidden></label>
+                    <label id="114_red" for="red" hidden></label>
                 <?php }
             }
             ?>
@@ -1559,7 +1559,7 @@ if (!$login){
                         <td><?php echo $reget11['des']; ?></td>
                         <td><?php echo $reget11['note']; ?></td>
                     </tr>
-                    <label id="11_red" for="red" hidden></label>
+                    <label id="115_red" for="red" hidden></label>
                 <?php }
             }
             ?>
@@ -1626,7 +1626,7 @@ if (!$login){
                         <td><?php echo $reget11['des']; ?></td>
                         <td><?php echo $reget11['note']; ?></td>
                     </tr>
-                    <label id="11_red" for="red" hidden></label>
+                    <label id="116_red" for="red" hidden></label>
                 <?php }
             }
             ?>
@@ -1693,7 +1693,7 @@ if (!$login){
                         <td><?php echo $reget11['des']; ?></td>
                         <td><?php echo $reget11['note']; ?></td>
                     </tr>
-                    <label id="11_red" for="red" hidden></label>
+                    <label id="117_red" for="red" hidden></label>
                 <?php }
             }
             ?>
@@ -1760,7 +1760,7 @@ if (!$login){
                         <td><?php echo $reget11['des']; ?></td>
                         <td><?php echo $reget11['note']; ?></td>
                     </tr>
-                    <label id="11_red" for="red" hidden></label>
+                    <label id="118_red" for="red" hidden></label>
                 <?php }
             }
             ?>
@@ -1827,7 +1827,7 @@ if (!$login){
                         <td><?php echo $reget11['des']; ?></td>
                         <td><?php echo $reget11['note']; ?></td>
                     </tr>
-                    <label id="11_red" for="red" hidden></label>
+                    <label id="119_red" for="red" hidden></label>
                 <?php }
             }
             ?>
@@ -1894,7 +1894,7 @@ if (!$login){
                         <td><?php echo $reget11['des']; ?></td>
                         <td><?php echo $reget11['note']; ?></td>
                     </tr>
-                    <label id="11_red" for="red" hidden></label>
+                    <label id="120_red" for="red" hidden></label>
                 <?php }
             }
             ?>
@@ -1961,7 +1961,7 @@ if (!$login){
                         <td><?php echo $reget11['des']; ?></td>
                         <td><?php echo $reget11['note']; ?></td>
                     </tr>
-                    <label id="11_red" for="red" hidden></label>
+                    <label id="121_red" for="red" hidden></label>
                 <?php }
             }
             ?>
@@ -2028,7 +2028,7 @@ if (!$login){
                         <td><?php echo $reget11['des']; ?></td>
                         <td><?php echo $reget11['note']; ?></td>
                     </tr>
-                    <label id="11_red" for="red" hidden></label>
+                    <label id="122_red" for="red" hidden></label>
                 <?php }
             }
             ?>
@@ -2095,7 +2095,7 @@ if (!$login){
                         <td><?php echo $reget11['des']; ?></td>
                         <td><?php echo $reget11['note']; ?></td>
                     </tr>
-                    <label id="11_red" for="red" hidden></label>
+                    <label id="123_red" for="red" hidden></label>
                 <?php }
             }
             ?>
@@ -2162,7 +2162,7 @@ if (!$login){
                         <td><?php echo $reget11['des']; ?></td>
                         <td><?php echo $reget11['note']; ?></td>
                     </tr>
-                    <label id="11_red" for="red" hidden></label>
+                    <label id="124_red" for="red" hidden></label>
                 <?php }
             }
             ?>
@@ -2229,7 +2229,7 @@ if (!$login){
                         <td><?php echo $reget11['des']; ?></td>
                         <td><?php echo $reget11['note']; ?></td>
                     </tr>
-                    <label id="11_red" for="red" hidden></label>
+                    <label id="125_red" for="red" hidden></label>
                 <?php }
             }
             ?>
@@ -2296,7 +2296,7 @@ if (!$login){
                         <td><?php echo $reget11['des']; ?></td>
                         <td><?php echo $reget11['note']; ?></td>
                     </tr>
-                    <label id="11_red" for="red" hidden></label>
+                    <label id="126_red" for="red" hidden></label>
                 <?php }
             }
             ?>
@@ -2364,7 +2364,7 @@ if (!$login){
                         <td><?php echo $reget11['des']; ?></td>
                         <td><?php echo $reget11['note']; ?></td>
                     </tr>
-                    <label id="11_red" for="red" hidden></label>
+                    <label id="21_red" for="red" hidden></label>
                 <?php }
             }
             ?>
@@ -2498,7 +2498,7 @@ if (!$login){
                         <td><?php echo $reget11['des']; ?></td>
                         <td><?php echo $reget11['note']; ?></td>
                     </tr>
-                    <label id="11_red" for="red" hidden></label>
+                    <label id="23_red" for="red" hidden></label>
                 <?php }
             }
             ?>
@@ -2565,7 +2565,7 @@ if (!$login){
                         <td><?php echo $reget11['des']; ?></td>
                         <td><?php echo $reget11['note']; ?></td>
                     </tr>
-                    <label id="22_red" for="red" hidden></label>
+                    <label id="24_red" for="red" hidden></label>
                 <?php }
             }
             ?>
@@ -2632,7 +2632,7 @@ if (!$login){
                         <td><?php echo $reget11['des']; ?></td>
                         <td><?php echo $reget11['note']; ?></td>
                     </tr>
-                    <label id="22_red" for="red" hidden></label>
+                    <label id="25_red" for="red" hidden></label>
                 <?php }
             }
             ?>
@@ -2699,7 +2699,7 @@ if (!$login){
                         <td><?php echo $reget11['des']; ?></td>
                         <td><?php echo $reget11['note']; ?></td>
                     </tr>
-                    <label id="22_red" for="red" hidden></label>
+                    <label id="26_red" for="red" hidden></label>
                 <?php }
             }
             ?>
@@ -2766,7 +2766,7 @@ if (!$login){
                         <td><?php echo $reget11['des']; ?></td>
                         <td><?php echo $reget11['note']; ?></td>
                     </tr>
-                    <label id="22_red" for="red" hidden></label>
+                    <label id="27_red" for="red" hidden></label>
                 <?php }
             }
             ?>
@@ -2833,7 +2833,7 @@ if (!$login){
                         <td><?php echo $reget11['des']; ?></td>
                         <td><?php echo $reget11['note']; ?></td>
                     </tr>
-                    <label id="22_red" for="red" hidden></label>
+                    <label id="28_red" for="red" hidden></label>
                 <?php }
             }
             ?>
@@ -2900,7 +2900,7 @@ if (!$login){
                         <td><?php echo $reget11['des']; ?></td>
                         <td><?php echo $reget11['note']; ?></td>
                     </tr>
-                    <label id="22_red" for="red" hidden></label>
+                    <label id="29_red" for="red" hidden></label>
                 <?php }
             }
             ?>
@@ -2967,7 +2967,7 @@ if (!$login){
                         <td><?php echo $reget11['des']; ?></td>
                         <td><?php echo $reget11['note']; ?></td>
                     </tr>
-                    <label id="22_red" for="red" hidden></label>
+                    <label id="210_red" for="red" hidden></label>
                 <?php }
             }
             ?>
@@ -3034,7 +3034,7 @@ if (!$login){
                         <td><?php echo $reget11['des']; ?></td>
                         <td><?php echo $reget11['note']; ?></td>
                     </tr>
-                    <label id="22_red" for="red" hidden></label>
+                    <label id="211_red" for="red" hidden></label>
                 <?php }
             }
             ?>
@@ -3101,7 +3101,7 @@ if (!$login){
                         <td><?php echo $reget11['des']; ?></td>
                         <td><?php echo $reget11['note']; ?></td>
                     </tr>
-                    <label id="22_red" for="red" hidden></label>
+                    <label id="212_red" for="red" hidden></label>
                 <?php }
             }
             ?>
@@ -3168,7 +3168,7 @@ if (!$login){
                         <td><?php echo $reget11['des']; ?></td>
                         <td><?php echo $reget11['note']; ?></td>
                     </tr>
-                    <label id="22_red" for="red" hidden></label>
+                    <label id="213_red" for="red" hidden></label>
                 <?php }
             }
             ?>
@@ -3235,7 +3235,7 @@ if (!$login){
                         <td><?php echo $reget11['des']; ?></td>
                         <td><?php echo $reget11['note']; ?></td>
                     </tr>
-                    <label id="22_red" for="red" hidden></label>
+                    <label id="214_red" for="red" hidden></label>
                 <?php }
             }
             ?>
@@ -3302,7 +3302,7 @@ if (!$login){
                         <td><?php echo $reget11['des']; ?></td>
                         <td><?php echo $reget11['note']; ?></td>
                     </tr>
-                    <label id="22_red" for="red" hidden></label>
+                    <label id="215_red" for="red" hidden></label>
                 <?php }
             }
             ?>
@@ -3369,7 +3369,7 @@ if (!$login){
                         <td><?php echo $reget11['des']; ?></td>
                         <td><?php echo $reget11['note']; ?></td>
                     </tr>
-                    <label id="22_red" for="red" hidden></label>
+                    <label id="216_red" for="red" hidden></label>
                 <?php }
             }
             ?>
@@ -3436,7 +3436,7 @@ if (!$login){
                         <td><?php echo $reget11['des']; ?></td>
                         <td><?php echo $reget11['note']; ?></td>
                     </tr>
-                    <label id="22_red" for="red" hidden></label>
+                    <label id="217_red" for="red" hidden></label>
                 <?php }
             }
             ?>
@@ -3503,7 +3503,7 @@ if (!$login){
                         <td><?php echo $reget11['des']; ?></td>
                         <td><?php echo $reget11['note']; ?></td>
                     </tr>
-                    <label id="22_red" for="red" hidden></label>
+                    <label id="218_red" for="red" hidden></label>
                 <?php }
             }
             ?>
@@ -3570,7 +3570,7 @@ if (!$login){
                         <td><?php echo $reget11['des']; ?></td>
                         <td><?php echo $reget11['note']; ?></td>
                     </tr>
-                    <label id="22_red" for="red" hidden></label>
+                    <label id="219_red" for="red" hidden></label>
                 <?php }
             }
             ?>
@@ -3637,7 +3637,7 @@ if (!$login){
                         <td><?php echo $reget11['des']; ?></td>
                         <td><?php echo $reget11['note']; ?></td>
                     </tr>
-                    <label id="22_red" for="red" hidden></label>
+                    <label id="220_red" for="red" hidden></label>
                 <?php }
             }
             ?>
@@ -3704,7 +3704,7 @@ if (!$login){
                         <td><?php echo $reget11['des']; ?></td>
                         <td><?php echo $reget11['note']; ?></td>
                     </tr>
-                    <label id="22_red" for="red" hidden></label>
+                    <label id="221_red" for="red" hidden></label>
                 <?php }
             }
             ?>
@@ -3771,7 +3771,7 @@ if (!$login){
                         <td><?php echo $reget11['des']; ?></td>
                         <td><?php echo $reget11['note']; ?></td>
                     </tr>
-                    <label id="22_red" for="red" hidden></label>
+                    <label id="222_red" for="red" hidden></label>
                 <?php }
             }
             ?>
@@ -3838,7 +3838,7 @@ if (!$login){
                         <td><?php echo $reget11['des']; ?></td>
                         <td><?php echo $reget11['note']; ?></td>
                     </tr>
-                    <label id="22_red" for="red" hidden></label>
+                    <label id="223_red" for="red" hidden></label>
                 <?php }
             }
             ?>
@@ -3905,7 +3905,7 @@ if (!$login){
                         <td><?php echo $reget11['des']; ?></td>
                         <td><?php echo $reget11['note']; ?></td>
                     </tr>
-                    <label id="22_red" for="red" hidden></label>
+                    <label id="224_red" for="red" hidden></label>
                 <?php }
             }
             ?>
@@ -25627,16 +25627,1754 @@ if (!$login){
         if (event.target == modal826) {
             modal826.style.display = "none";
         }
+
+        if (event.target == modal91) {
+            modal91.style.display = "none";
+        }
+        if (event.target == modal92) {
+            modal92.style.display = "none";
+        }
+        if (event.target == modal93) {
+            modal93.style.display = "none";
+        }
+        if (event.target == modal94) {
+            modal94.style.display = "none";
+        }
+        if (event.target == modal95) {
+            modal95.style.display = "none";
+        }
+        if (event.target == modal96) {
+            modal96.style.display = "none";
+        }
+        if (event.target == modal97) {
+            modal97.style.display = "none";
+        }
+        if (event.target == modal98) {
+            modal98.style.display = "none";
+        }
+        if (event.target == modal99) {
+            modal99.style.display = "none";
+        }
+        if (event.target == modal910) {
+            modal910.style.display = "none";
+        }
+        if (event.target == modal911) {
+            modal911.style.display = "none";
+        }
+        if (event.target == modal912) {
+            modal912.style.display = "none";
+        }
+        if (event.target == modal913) {
+            modal913.style.display = "none";
+        }
+        if (event.target == modal914) {
+            modal914.style.display = "none";
+        }
+        if (event.target == modal915) {
+            modal915.style.display = "none";
+        }
+        if (event.target == modal916) {
+            modal916.style.display = "none";
+        }
+        if (event.target == modal917) {
+            modal917.style.display = "none";
+        }
+        if (event.target == modal918) {
+            modal918.style.display = "none";
+        }
+        if (event.target == modal919) {
+            modal919.style.display = "none";
+        }
+        if (event.target == modal920) {
+            modal920.style.display = "none";
+        }
+        if (event.target == modal921) {
+            modal921.style.display = "none";
+        }
+        if (event.target == modal922) {
+            modal922.style.display = "none";
+        }
+        if (event.target == modal823) {
+            modal923.style.display = "none";
+        }
+        if (event.target == modal924) {
+            modal924.style.display = "none";
+        }
+        if (event.target == modal925) {
+            modal925.style.display = "none";
+        }
+        if (event.target == modal926) {
+            modal926.style.display = "none";
+        }
+
+        if (event.target == modal101) {
+            modal101.style.display = "none";
+        }
+        if (event.target == modal102) {
+            modal102.style.display = "none";
+        }
+        if (event.target == modal103) {
+            modal103.style.display = "none";
+        }
+        if (event.target == modal104) {
+            modal104.style.display = "none";
+        }
+        if (event.target == modal105) {
+            modal105.style.display = "none";
+        }
+        if (event.target == modal106) {
+            modal106.style.display = "none";
+        }
+        if (event.target == modal107) {
+            modal107.style.display = "none";
+        }
+        if (event.target == modal108) {
+            modal108.style.display = "none";
+        }
+        if (event.target == modal109) {
+            modal109.style.display = "none";
+        }
+        if (event.target == modal1010) {
+            modal1010.style.display = "none";
+        }
+        if (event.target == modal1011) {
+            modal1011.style.display = "none";
+        }
+        if (event.target == modal1012) {
+            modal1012.style.display = "none";
+        }
+        if (event.target == modal1013) {
+            modal1013.style.display = "none";
+        }
+        if (event.target == modal1014) {
+            modal1014.style.display = "none";
+        }
+        if (event.target == modal1015) {
+            modal1015.style.display = "none";
+        }
+        if (event.target == modal1016) {
+            modal1016.style.display = "none";
+        }
+        if (event.target == modal1017) {
+            modal1017.style.display = "none";
+        }
+        if (event.target == modal1018) {
+            modal1018.style.display = "none";
+        }
+        if (event.target == modal1019) {
+            modal1019.style.display = "none";
+        }
+        if (event.target == modal1020) {
+            modal1020.style.display = "none";
+        }
+        if (event.target == modal1021) {
+            modal1021.style.display = "none";
+        }
+        if (event.target == modal1022) {
+            modal1022.style.display = "none";
+        }
+        if (event.target == modal1023) {
+            modal1023.style.display = "none";
+        }
+        if (event.target == modal1024) {
+            modal1024.style.display = "none";
+        }
+        if (event.target == modal1025) {
+            modal1025.style.display = "none";
+        }
+        if (event.target == modal1026) {
+            modal1026.style.display = "none";
+        }
+
+        if (event.target == modal1101) {
+            modal1101.style.display = "none";
+        }
+        if (event.target == modal1102) {
+            modal1102.style.display = "none";
+        }
+        if (event.target == modal1103) {
+            modal1103.style.display = "none";
+        }
+        if (event.target == modal1104) {
+            modal1104.style.display = "none";
+        }
+        if (event.target == modal1105) {
+            modal1105.style.display = "none";
+        }
+        if (event.target == modal1106) {
+            modal1106.style.display = "none";
+        }
+        if (event.target == modal1107) {
+            modal1107.style.display = "none";
+        }
+        if (event.target == modal1108) {
+            modal1108.style.display = "none";
+        }
+        if (event.target == modal1109) {
+            modal1109.style.display = "none";
+        }
+        if (event.target == modal1110) {
+            modal1110.style.display = "none";
+        }
+        if (event.target == modal1111) {
+            modal1111.style.display = "none";
+        }
+        if (event.target == modal1112) {
+            modal1112.style.display = "none";
+        }
+        if (event.target == modal1113) {
+            modal1113.style.display = "none";
+        }
+        if (event.target == modal1114) {
+            modal1114.style.display = "none";
+        }
+        if (event.target == modal1115) {
+            modal1115.style.display = "none";
+        }
+        if (event.target == modal1116) {
+            modal1116.style.display = "none";
+        }
+        if (event.target == modal1117) {
+            modal1117.style.display = "none";
+        }
+        if (event.target == modal1118) {
+            modal1118.style.display = "none";
+        }
+        if (event.target == modal1119) {
+            modal1119.style.display = "none";
+        }
+        if (event.target == modal1120) {
+            modal1120.style.display = "none";
+        }
+        if (event.target == modal1121) {
+            modal1121.style.display = "none";
+        }
+        if (event.target == modal1122) {
+            modal1122.style.display = "none";
+        }
+        if (event.target == modal1123) {
+            modal1123.style.display = "none";
+        }
+        if (event.target == modal1124) {
+            modal1124.style.display = "none";
+        }
+        if (event.target == modal1125) {
+            modal1125.style.display = "none";
+        }
+        if (event.target == modal1126) {
+            modal1126.style.display = "none";
+        }
+
+        if (event.target == modal1201) {
+            modal1201.style.display = "none";
+        }
+        if (event.target == modal1202) {
+            modal1202.style.display = "none";
+        }
+        if (event.target == modal1203) {
+            modal1203.style.display = "none";
+        }
+        if (event.target == modal1204) {
+            modal1204.style.display = "none";
+        }
+        if (event.target == modal1205) {
+            modal1205.style.display = "none";
+        }
+        if (event.target == modal1206) {
+            modal1206.style.display = "none";
+        }
+        if (event.target == modal1207) {
+            modal1207.style.display = "none";
+        }
+        if (event.target == modal1208) {
+            modal1208.style.display = "none";
+        }
+        if (event.target == modal1209) {
+            modal1209.style.display = "none";
+        }
+        if (event.target == modal1210) {
+            modal1210.style.display = "none";
+        }
+        if (event.target == modal1211) {
+            modal1211.style.display = "none";
+        }
+        if (event.target == modal1212) {
+            modal1212.style.display = "none";
+        }
+        if (event.target == modal1213) {
+            modal1213.style.display = "none";
+        }
+        if (event.target == modal1214) {
+            modal1214.style.display = "none";
+        }
+        if (event.target == modal1215) {
+            modal1215.style.display = "none";
+        }
+        if (event.target == modal1216) {
+            modal1216.style.display = "none";
+        }
+        if (event.target == modal1217) {
+            modal1217.style.display = "none";
+        }
+        if (event.target == modal1218) {
+            modal1218.style.display = "none";
+        }
+        if (event.target == modal1219) {
+            modal1219.style.display = "none";
+        }
+        if (event.target == modal1220) {
+            modal1220.style.display = "none";
+        }
+        if (event.target == modal1221) {
+            modal1221.style.display = "none";
+        }
+        if (event.target == modal1222) {
+            modal1222.style.display = "none";
+        }
+        if (event.target == modal1223) {
+            modal1223.style.display = "none";
+        }
+        if (event.target == modal1224) {
+            modal1224.style.display = "none";
+        }
+        if (event.target == modal1225) {
+            modal1225.style.display = "none";
+        }
+        if (event.target == modal1226) {
+            modal1226.style.display = "none";
+        }
+
+        if (event.target == modal1301) {
+            modal1301.style.display = "none";
+        }
+        if (event.target == modal1302) {
+            modal1302.style.display = "none";
+        }
+        if (event.target == modal1303) {
+            modal1303.style.display = "none";
+        }
+        if (event.target == modal1304) {
+            modal1304.style.display = "none";
+        }
+        if (event.target == modal1305) {
+            modal1305.style.display = "none";
+        }
+        if (event.target == modal1306) {
+            modal1306.style.display = "none";
+        }
+        if (event.target == modal1307) {
+            modal1307.style.display = "none";
+        }
+        if (event.target == modal1308) {
+            modal1308.style.display = "none";
+        }
+        if (event.target == modal1309) {
+            modal1309.style.display = "none";
+        }
+        if (event.target == modal1310) {
+            modal1310.style.display = "none";
+        }
+        if (event.target == modal1311) {
+            modal1311.style.display = "none";
+        }
+        if (event.target == modal1312) {
+            modal1312.style.display = "none";
+        }
+        if (event.target == modal1313) {
+            modal1313.style.display = "none";
+        }
+        if (event.target == modal1314) {
+            modal1314.style.display = "none";
+        }
+        if (event.target == modal1315) {
+            modal1315.style.display = "none";
+        }
+        if (event.target == modal1316) {
+            modal1316.style.display = "none";
+        }
+        if (event.target == modal1317) {
+            modal1317.style.display = "none";
+        }
+        if (event.target == modal1318) {
+            modal1318.style.display = "none";
+        }
+        if (event.target == modal1319) {
+            modal1319.style.display = "none";
+        }
+        if (event.target == modal1320) {
+            modal1320.style.display = "none";
+        }
+        if (event.target == modal1321) {
+            modal1321.style.display = "none";
+        }
+        if (event.target == modal1322) {
+            modal1322.style.display = "none";
+        }
+        if (event.target == modal1323) {
+            modal1323.style.display = "none";
+        }
+        if (event.target == modal1324) {
+            modal1324.style.display = "none";
+        }
+        if (event.target == modal1325) {
+            modal1325.style.display = "none";
+        }
+        if (event.target == modal1326) {
+            modal1326.style.display = "none";
+        }
     }
 
-    var red_11 = document.getElementById("11_red").htmlFor;
-    if (red_11 == "red") {
+
+    if (document.getElementById("11_red").htmlFor == "red") {
         r11.style.backgroundColor= '#FF0000';
     }
 
-    var red_22 = document.getElementById("11_red").htmlFor;
-    if (red_22 == "red") {
+    if (document.getElementById("12_red").htmlFor == "red") {
+        r12.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("13_red").htmlFor == "red") {
+        r13.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("14_red").htmlFor == "red") {
+        r14.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("15_red").htmlFor == "red") {
+        r15.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("16_red").htmlFor == "red") {
+        r16.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("17_red").htmlFor == "red") {
+        r17.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("18_red").htmlFor == "red") {
+        r18.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("19_red").htmlFor == "red") {
+        r19.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("110_red").htmlFor == "red") {
+        r110.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("111_red").htmlFor == "red") {
+        r111.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("112_red").htmlFor == "red") {
+        r112.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("113_red").htmlFor == "red") {
+        r113.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("114_red").htmlFor == "red") {
+        r114.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("115_red").htmlFor == "red") {
+        r115.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("116_red").htmlFor == "red") {
+        r116.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("117_red").htmlFor == "red") {
+        r117.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("118_red").htmlFor == "red") {
+        r118.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("119_red").htmlFor == "red") {
+        r119.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("120_red").htmlFor == "red") {
+        r120.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("121_red").htmlFor == "red") {
+        r121.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("122_red").htmlFor == "red") {
+        r122.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("123_red").htmlFor == "red") {
+        r123.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("124_red").htmlFor == "red") {
+        r124.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("125_red").htmlFor == "red") {
+        r125.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("126_red").htmlFor == "red") {
+        r126.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("21_red").htmlFor == "red") {
+        r21.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("22_red").htmlFor == "red") {
         r22.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("23_red").htmlFor == "red") {
+        r23.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("24_red").htmlFor == "red") {
+        r24.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("25_red").htmlFor == "red") {
+        r25.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("26_red").htmlFor == "red") {
+        r26.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("27_red").htmlFor == "red") {
+        r27.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("28_red").htmlFor == "red") {
+        r28.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("29_red").htmlFor == "red") {
+        r29.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("210_red").htmlFor == "red") {
+        r210.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("211_red").htmlFor == "red") {
+        r211.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("212_red").htmlFor == "red") {
+        r212.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("213_red").htmlFor == "red") {
+        r213.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("214_red").htmlFor == "red") {
+        r214.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("215_red").htmlFor == "red") {
+        r215.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("216_red").htmlFor == "red") {
+        r216.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("217_red").htmlFor == "red") {
+        r217.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("218_red").htmlFor == "red") {
+        r218.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("219_red").htmlFor == "red") {
+        r219.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("220_red").htmlFor == "red") {
+        r220.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("221_red").htmlFor == "red") {
+        r221.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("222_red").htmlFor == "red") {
+        r222.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("223_red").htmlFor == "red") {
+        r223.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("224_red").htmlFor == "red") {
+        r224.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("225_red").htmlFor == "red") {
+        r225.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("226_red").htmlFor == "red") {
+        r226.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("31_red").htmlFor == "red") {
+        r31.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("32_red").htmlFor == "red") {
+        r32.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("33_red").htmlFor == "red") {
+        r33.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("34_red").htmlFor == "red") {
+        r34.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("35_red").htmlFor == "red") {
+        r35.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("36_red").htmlFor == "red") {
+        r36.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("37_red").htmlFor == "red") {
+        r37.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("38_red").htmlFor == "red") {
+        r38.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("39_red").htmlFor == "red") {
+        r39.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("310_red").htmlFor == "red") {
+        r310.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("311_red").htmlFor == "red") {
+        r311.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("312_red").htmlFor == "red") {
+        r312.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("313_red").htmlFor == "red") {
+        r313.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("314_red").htmlFor == "red") {
+        r314.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("315_red").htmlFor == "red") {
+        r315.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("316_red").htmlFor == "red") {
+        r316.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("317_red").htmlFor == "red") {
+        r317.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("318_red").htmlFor == "red") {
+        r318.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("319_red").htmlFor == "red") {
+        r319.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("320_red").htmlFor == "red") {
+        r320.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("321_red").htmlFor == "red") {
+        r321.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("322_red").htmlFor == "red") {
+        r322.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("323_red").htmlFor == "red") {
+        r323.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("324_red").htmlFor == "red") {
+        r324.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("325_red").htmlFor == "red") {
+        r325.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("326_red").htmlFor == "red") {
+        r326.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("41_red").htmlFor == "red") {
+        r41.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("42_red").htmlFor == "red") {
+        r42.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("43_red").htmlFor == "red") {
+        r43.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("44_red").htmlFor == "red") {
+        r44.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("45_red").htmlFor == "red") {
+        r45.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("46_red").htmlFor == "red") {
+        r46.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("47_red").htmlFor == "red") {
+        r47.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("48_red").htmlFor == "red") {
+        r48.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("49_red").htmlFor == "red") {
+        r49.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("410_red").htmlFor == "red") {
+        r410.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("411_red").htmlFor == "red") {
+        r411.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("412_red").htmlFor == "red") {
+        r412.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("413_red").htmlFor == "red") {
+        r413.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("414_red").htmlFor == "red") {
+        r414.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("415_red").htmlFor == "red") {
+        r415.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("416_red").htmlFor == "red") {
+        r416.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("417_red").htmlFor == "red") {
+        r417.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("418_red").htmlFor == "red") {
+        r418.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("419_red").htmlFor == "red") {
+        r419.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("420_red").htmlFor == "red") {
+        r420.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("421_red").htmlFor == "red") {
+        r424.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("422_red").htmlFor == "red") {
+        r421.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("423_red").htmlFor == "red") {
+        r423.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("424_red").htmlFor == "red") {
+        r424.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("425_red").htmlFor == "red") {
+        r425.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("426_red").htmlFor == "red") {
+        r426.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("51_red").htmlFor == "red") {
+        r51.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("52_red").htmlFor == "red") {
+        r52.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("53_red").htmlFor == "red") {
+        r53.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("54_red").htmlFor == "red") {
+        r54.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("55_red").htmlFor == "red") {
+        r55.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("56_red").htmlFor == "red") {
+        r56.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("57_red").htmlFor == "red") {
+        r57.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("58_red").htmlFor == "red") {
+        r58.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("59_red").htmlFor == "red") {
+        r59.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("510_red").htmlFor == "red") {
+        r510.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("511_red").htmlFor == "red") {
+        r511.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("512_red").htmlFor == "red") {
+        r512.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("513_red").htmlFor == "red") {
+        r513.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("514_red").htmlFor == "red") {
+        r514.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("515_red").htmlFor == "red") {
+        r515.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("516_red").htmlFor == "red") {
+        r516.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("517_red").htmlFor == "red") {
+        r517.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("518_red").htmlFor == "red") {
+        r518.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("519_red").htmlFor == "red") {
+        r519.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("520_red").htmlFor == "red") {
+        r520.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("521_red").htmlFor == "red") {
+        r521.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("522_red").htmlFor == "red") {
+        r522.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("523_red").htmlFor == "red") {
+        r523.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("524_red").htmlFor == "red") {
+        r524.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("525_red").htmlFor == "red") {
+        r525.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("526_red").htmlFor == "red") {
+        r526.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("61_red").htmlFor == "red") {
+        r61.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("62_red").htmlFor == "red") {
+        r62.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("63_red").htmlFor == "red") {
+        r63.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("64_red").htmlFor == "red") {
+        r64.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("65_red").htmlFor == "red") {
+        r65.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("66_red").htmlFor == "red") {
+        r66.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("67_red").htmlFor == "red") {
+        r67.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("68_red").htmlFor == "red") {
+        r68.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("69_red").htmlFor == "red") {
+        r69.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("610_red").htmlFor == "red") {
+        r610.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("611_red").htmlFor == "red") {
+        r611.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("612_red").htmlFor == "red") {
+        r612.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("613_red").htmlFor == "red") {
+        r613.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("614_red").htmlFor == "red") {
+        r614.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("615_red").htmlFor == "red") {
+        r615.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("616_red").htmlFor == "red") {
+        r616.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("617_red").htmlFor == "red") {
+        r617.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("618_red").htmlFor == "red") {
+        r618.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("619_red").htmlFor == "red") {
+        r619.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("620_red").htmlFor == "red") {
+        r620.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("621_red").htmlFor == "red") {
+        r621.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("622_red").htmlFor == "red") {
+        r622.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("623_red").htmlFor == "red") {
+        r623.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("624_red").htmlFor == "red") {
+        r624.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("625_red").htmlFor == "red") {
+        r625.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("626_red").htmlFor == "red") {
+        r626.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("71_red").htmlFor == "red") {
+        r71.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("72_red").htmlFor == "red") {
+        r72.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("73_red").htmlFor == "red") {
+        r73.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("74_red").htmlFor == "red") {
+        r74.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("75_red").htmlFor == "red") {
+        r75.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("76_red").htmlFor == "red") {
+        r76.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("77_red").htmlFor == "red") {
+        r77.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("78_red").htmlFor == "red") {
+        r78.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("79_red").htmlFor == "red") {
+        r79.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("710_red").htmlFor == "red") {
+        r710.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("711_red").htmlFor == "red") {
+        r711.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("712_red").htmlFor == "red") {
+        r712.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("713_red").htmlFor == "red") {
+        r713.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("714_red").htmlFor == "red") {
+        r714.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("715_red").htmlFor == "red") {
+        r715.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("716_red").htmlFor == "red") {
+        r716.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("717_red").htmlFor == "red") {
+        r717.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("718_red").htmlFor == "red") {
+        r718.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("719_red").htmlFor == "red") {
+        r719.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("720_red").htmlFor == "red") {
+        r720.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("721_red").htmlFor == "red") {
+        r721.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("722_red").htmlFor == "red") {
+        r722.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("723_red").htmlFor == "red") {
+        r723.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("724_red").htmlFor == "red") {
+        r724.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("725_red").htmlFor == "red") {
+        r725.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("726_red").htmlFor == "red") {
+        r726.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("81_red").htmlFor == "red") {
+        r81.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("82_red").htmlFor == "red") {
+        r82.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("83_red").htmlFor == "red") {
+        r83.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("84_red").htmlFor == "red") {
+        r84.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("85_red").htmlFor == "red") {
+        r85.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("86_red").htmlFor == "red") {
+        r86.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("87_red").htmlFor == "red") {
+        r87.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("88_red").htmlFor == "red") {
+        r88.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("89_red").htmlFor == "red") {
+        r89.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("810_red").htmlFor == "red") {
+        r810.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("811_red").htmlFor == "red") {
+        r811.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("812_red").htmlFor == "red") {
+        r812.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("813_red").htmlFor == "red") {
+        r813.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("814_red").htmlFor == "red") {
+        r814.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("815_red").htmlFor == "red") {
+        r815.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("816_red").htmlFor == "red") {
+        r816.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("817_red").htmlFor == "red") {
+        r817.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("818_red").htmlFor == "red") {
+        r818.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("819_red").htmlFor == "red") {
+        r819.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("820_red").htmlFor == "red") {
+        r820.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("821_red").htmlFor == "red") {
+        r821.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("822_red").htmlFor == "red") {
+        r822.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("823_red").htmlFor == "red") {
+        r823.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("824_red").htmlFor == "red") {
+        r824.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("825_red").htmlFor == "red") {
+        r825.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("826_red").htmlFor == "red") {
+        r826.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("91_red").htmlFor == "red") {
+        r91.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("92_red").htmlFor == "red") {
+        r92.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("93_red").htmlFor == "red") {
+        r93.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("94_red").htmlFor == "red") {
+        r94.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("95_red").htmlFor == "red") {
+        r95.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("96_red").htmlFor == "red") {
+        r96.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("97_red").htmlFor == "red") {
+        r97.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("98_red").htmlFor == "red") {
+        r98.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("99_red").htmlFor == "red") {
+        r99.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("910_red").htmlFor == "red") {
+        r910.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("911_red").htmlFor == "red") {
+        r911.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("912_red").htmlFor == "red") {
+        r912.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("913_red").htmlFor == "red") {
+        r913.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("914_red").htmlFor == "red") {
+        r914.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("915_red").htmlFor == "red") {
+        r915.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("916_red").htmlFor == "red") {
+        r916.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("917_red").htmlFor == "red") {
+        r917.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("918_red").htmlFor == "red") {
+        r918.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("919_red").htmlFor == "red") {
+        r919.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("920_red").htmlFor == "red") {
+        r920.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("921_red").htmlFor == "red") {
+        r921.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("922_red").htmlFor == "red") {
+        r922.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("923_red").htmlFor == "red") {
+        r923.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("924_red").htmlFor == "red") {
+        r924.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("925_red").htmlFor == "red") {
+        r925.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("926_red").htmlFor == "red") {
+        r926.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("101_red").htmlFor == "red") {
+        r101.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("102_red").htmlFor == "red") {
+        r102.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("103_red").htmlFor == "red") {
+        r103.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("104_red").htmlFor == "red") {
+        r104.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("105_red").htmlFor == "red") {
+        r105.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("106_red").htmlFor == "red") {
+        r106.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("107_red").htmlFor == "red") {
+        r107.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("108_red").htmlFor == "red") {
+        r108.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("109_red").htmlFor == "red") {
+        r109.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("1010_red").htmlFor == "red") {
+        r1010.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("1011_red").htmlFor == "red") {
+        r1011.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("1012_red").htmlFor == "red") {
+        r1012.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("1013_red").htmlFor == "red") {
+        r1013.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("1014_red").htmlFor == "red") {
+        r1014.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("1015_red").htmlFor == "red") {
+        r1015.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("1016_red").htmlFor == "red") {
+        r1016.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("1017_red").htmlFor == "red") {
+        r1017.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("1018_red").htmlFor == "red") {
+        r1018.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("1019_red").htmlFor == "red") {
+        r1019.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("1020_red").htmlFor == "red") {
+        r1020.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("1021_red").htmlFor == "red") {
+        r1021.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("1022_red").htmlFor == "red") {
+        r1022.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("1023_red").htmlFor == "red") {
+        r1023.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("1024_red").htmlFor == "red") {
+        r1024.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("1025_red").htmlFor == "red") {
+        r1025.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("1026_red").htmlFor == "red") {
+        r1026.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("1101_red").htmlFor == "red") {
+        r1101.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("1102_red").htmlFor == "red") {
+        r1102.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("1103_red").htmlFor == "red") {
+        r1103.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("1104_red").htmlFor == "red") {
+        r1104.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("1105_red").htmlFor == "red") {
+        r1105.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("1106_red").htmlFor == "red") {
+        r1106.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("1107_red").htmlFor == "red") {
+        r1107.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("1108_red").htmlFor == "red") {
+        r1108.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("1109_red").htmlFor == "red") {
+        r1109.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("1110_red").htmlFor == "red") {
+        r1110.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("1111_red").htmlFor == "red") {
+        r1111.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("1112_red").htmlFor == "red") {
+        r1112.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("1113_red").htmlFor == "red") {
+        r1113.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("1114_red").htmlFor == "red") {
+        r1114.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("1115_red").htmlFor == "red") {
+        r1115.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("1116_red").htmlFor == "red") {
+        r1116.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("1117_red").htmlFor == "red") {
+        r1117.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("1118_red").htmlFor == "red") {
+        r1118.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("1119_red").htmlFor == "red") {
+        r1119.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("1120_red").htmlFor == "red") {
+        r1120.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("1121_red").htmlFor == "red") {
+        r1121.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("1122_red").htmlFor == "red") {
+        r1122.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("1123_red").htmlFor == "red") {
+        r1123.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("1124_red").htmlFor == "red") {
+        r1124.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("1125_red").htmlFor == "red") {
+        r1125.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("1126_red").htmlFor == "red") {
+        r1126.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("1201_red").htmlFor == "red") {
+        r1201.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("1202_red").htmlFor == "red") {
+        r1202.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("1203_red").htmlFor == "red") {
+        r1203.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("1204_red").htmlFor == "red") {
+        r1204.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("1205_red").htmlFor == "red") {
+        r1205.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("1206_red").htmlFor == "red") {
+        r1206.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("1207_red").htmlFor == "red") {
+        r1207.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("1208_red").htmlFor == "red") {
+        r1208.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("1209_red").htmlFor == "red") {
+        r1209.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("1210_red").htmlFor == "red") {
+        r1210.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("1211_red").htmlFor == "red") {
+        r1211.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("1212_red").htmlFor == "red") {
+        r1212.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("1213_red").htmlFor == "red") {
+        r1213.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("1214_red").htmlFor == "red") {
+        r1214.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("1215_red").htmlFor == "red") {
+        r1215.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("1216_red").htmlFor == "red") {
+        r1216.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("1217_red").htmlFor == "red") {
+        r1217.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("1218_red").htmlFor == "red") {
+        r1218.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("1219_red").htmlFor == "red") {
+        r1219.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("1220_red").htmlFor == "red") {
+        r1220.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("1221_red").htmlFor == "red") {
+        r1221.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("1222_red").htmlFor == "red") {
+        r1222.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("1223_red").htmlFor == "red") {
+        r1223.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("1224_red").htmlFor == "red") {
+        r1224.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("1225_red").htmlFor == "red") {
+        r1225.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("1226_red").htmlFor == "red") {
+        r1226.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("1301_red").htmlFor == "red") {
+        r1301.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("1302_red").htmlFor == "red") {
+        r1302.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("1303_red").htmlFor == "red") {
+        r1303.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("1304_red").htmlFor == "red") {
+        r1304.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("1305_red").htmlFor == "red") {
+        r1305.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("1306_red").htmlFor == "red") {
+        r1306.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("1307_red").htmlFor == "red") {
+        r1307.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("1308_red").htmlFor == "red") {
+        r1308.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("1309_red").htmlFor == "red") {
+        r1309.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("1310_red").htmlFor == "red") {
+        r1310.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("1311_red").htmlFor == "red") {
+        r1311.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("1312_red").htmlFor == "red") {
+        r1312.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("1313_red").htmlFor == "red") {
+        r1313.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("1314_red").htmlFor == "red") {
+        r1314.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("1315_red").htmlFor == "red") {
+        r1315.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("1316_red").htmlFor == "red") {
+        r1316.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("1317_red").htmlFor == "red") {
+        r1317.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("1318_red").htmlFor == "red") {
+        r1318.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("1319_red").htmlFor == "red") {
+        r1319.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("1320_red").htmlFor == "red") {
+        r1320.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("1321_red").htmlFor == "red") {
+        r1321.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("1322_red").htmlFor == "red") {
+        r1322.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("1323_red").htmlFor == "red") {
+        r1323.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("1324_red").htmlFor == "red") {
+        r1324.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("1325_red").htmlFor == "red") {
+        r1325.style.backgroundColor= '#FF0000';
+    }
+
+    if (document.getElementById("1326_red").htmlFor == "red") {
+        r1326.style.backgroundColor= '#FF0000';
     }
 </script>
 </html>

@@ -4,11 +4,11 @@ session_start();
 include "model/configure.php";
 $login = $_SESSION['login_details'];
 if (isset($_POST['logout'])){
-    header('Location: logout.php');
+    echo "<script>window.location.href = 'logout.php';</script>";
 }
 if (!$login){
     session_destroy();
-    header('Location: index.php');
+    echo "<script>window.location.href = 'index.php';</script>";
 }
 ?>
 <html>
@@ -17,6 +17,7 @@ if (!$login){
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <META HTTP-EQUIV="refresh" CONTENT="60000">
     <!--Ends here -->
 
     <!-- Bootstrap -->

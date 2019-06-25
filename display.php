@@ -18,7 +18,6 @@ if (!$login){
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <META HTTP-EQUIV="refresh" CONTENT="60000">
     <!--Ends here -->
 
     <!-- Bootstrap -->
@@ -81,7 +80,12 @@ if (!$login){
                 <form method="post" name="first" id="first">
                     <div class="table-responsive" id="table_div">
                         <div class="row justify-content-center">
-                            <div class="form-group offset-sm-9">
+                            <div><strong>Date & Time: <?php
+                                    date_default_timezone_set("Asia/Kolkata");
+                                    echo date("d-m-Y h:i A"); ?></strong></div>
+<!--                            <div><strong>Time: --><?php
+//                                    echo date("h:i A"); ?><!--</strong></div>-->
+                            <div class="form-group offset-sm-8">
                                 <input type="hidden" id="week_number" name="week_number" max="23" min="1">
                                 <input type="submit" id="logout" name="logout" class="btn btn-danger" value="LOGOUT">
                             </div>
@@ -647,7 +651,6 @@ if (!$login){
             </tr>
             </thead>
             <tbody>
-            <label id="11_red" for="red" hidden></label>
                 <?php
                 $get11 = "SELECT * FROM card_details WHERE item_name ='Stable Casing' and week = 1";
                 $resget11 = mysqli_query($conn, $get11);
@@ -28475,5 +28478,8 @@ if (!$login){
         r1326.style.backgroundColor= '#FF0000';
     } } catch (e) {}
 
+    setTimeout(function() {
+        location.reload();
+    }, 30000);
 </script>
 </html>

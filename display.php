@@ -2,13 +2,14 @@
 <?php
 session_start();
 include "model/configure.php";
-$login = $_SESSION['login_details'];
+//$login = $_SESSION['login_details'];
 if (isset($_POST['logout'])){
     echo "<script>window.location.href = 'logout.php';</script>";
 }
+$loginchek = "select * from login where login_detail = 1";
+$login = mysqli_query($conn, $loginchek);
 if (!$login){
-    session_destroy();
-    echo "<script>window.location.href = 'index.php';</script>";
+    echo "<script>window.location.href = 'logout.php';</script>";
 }
 ?>
 <html>

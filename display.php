@@ -4073,6 +4073,7 @@ if (!$login){
             $resget11 = mysqli_query($conn, $get11);
             mysqli_num_rows($resget11);
             while ($reget11 = mysqli_fetch_assoc($resget11)){
+                echo date('Y-m-d');
                 if ($reget11['des'] >= date('Y-m-d')){
                     if ($reget11['type'] == "100 & Above"){
                         ?>

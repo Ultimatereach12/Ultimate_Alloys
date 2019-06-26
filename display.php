@@ -134,64 +134,376 @@ if (!$login){
                                 <td id="p1">STAGE CASING</td>
                                 <td>40</td>
                                 <td>35</td>
-                                <td id="11"></td>
-                                <td id="12"></td>
-                                <td id="13"></td>
-                                <td id="14"></td>
-                                <td id="15"></td>
-                                <td id="16"></td>
-                                <td id="17"></td>
-                                <td id="18"></td>
-                                <td id="19"></td>
-                                <td id="110"></td>
-                                <td id="111"></td>
-                                <td id="112"></td>
-                                <td id="113"></td>
-                                <td id="114"></td>
-                                <td id="115"></td>
-                                <td id="116"></td>
-                                <td id="117"></td>
-                                <td id="118"></td>
-                                <td id="119"></td>
-                                <td id="120"></td>
-                                <td id="121"></td>
-                                <td id="122"></td>
-                                <td id="123"></td>
-                                <td id="124"></td>
-                                <td id="125"></td>
-                                <td id="126"></td>
+                                <td id="11"><?php $c11 = 0;
+                                $query = "SELECT * FROM card_details WHERE item_name ='Stage Casing' and week = 1";
+                                $result = mysqli_query($conn, $query);
+                                while (mysqli_fetch_assoc($result)){
+                                    $c11 += 1;
+                                }
+                                echo $c11; ?></td>
+                                <td id="12"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Stage Casing' and week = 2";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="13"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Stage Casing' and week = 3";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="14"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Stage Casing' and week = 4";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="15"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Stage Casing' and week = 5";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="16"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Stage Casing' and week = 6";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="17"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Stage Casing' and week = 7";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="18"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Stage Casing' and week = 8";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="19"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Stage Casing' and week = 9";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="110"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Stage Casing' and week = 10";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="111"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Stage Casing' and week = 11";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="112"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Stage Casing' and week = 12";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="113"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Stage Casing' and week = 13";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="114"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Stage Casing' and week = 14";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="115"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Stage Casing' and week = 15";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="116"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Stage Casing' and week = 16";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="117"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Stage Casing' and week = 17";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="118"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Stage Casing' and week = 18";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="119"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Stage Casing' and week = 19";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="120"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Stage Casing' and week = 20";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="121"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Stage Casing' and week = 21";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="122"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Stage Casing' and week = 22";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="123"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Stage Casing' and week = 23";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="124"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Stage Casing' and week = 24";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="125"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Stage Casing' and week = 25";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="126"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Stage Casing' and week = 26";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
                             </tr>
                             <tr>
                                 <td>2</td>
                                 <td id="p2">SUCTION CASING</td>
                                 <td>3</td>
                                 <td>2</td>
-                                <td id="21"></td>
-                                <td id="22"></td>
-                                <td id="23"></td>
-                                <td id="24"></td>
-                                <td id="25"></td>
-                                <td id="26"></td>
-                                <td id="27"></td>
-                                <td id="28"></td>
-                                <td id="29"></td>
-                                <td id="210"></td>
-                                <td id="211"></td>
-                                <td id="212"></td>
-                                <td id="213"></td>
-                                <td id="214"></td>
-                                <td id="215"></td>
-                                <td id="216"></td>
-                                <td id="217"></td>
-                                <td id="218"></td>
-                                <td id="219"></td>
-                                <td id="220"></td>
-                                <td id="221"></td>
-                                <td id="222"></td>
-                                <td id="223"></td>
-                                <td id="224"></td>
-                                <td id="225"></td>
-                                <td id="226"></td>
+                                <td id="21"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Suction Casing' and week = 1";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="22"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Suction Casing' and week = 2";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="23"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Suction Casing' and week = 3";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="24"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Suction Casing' and week = 4";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="25"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Suction Casing' and week = 5";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="26"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Suction Casing' and week = 6";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="27"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Suction Casing' and week = 7";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="28"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Suction Casing' and week = 8";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="29"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Suction Casing' and week = 9";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="210"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Suction Casing' and week = 10";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="211"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Suction Casing' and week = 11";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="212"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Suction Casing' and week = 12";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="213"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Suction Casing' and week = 13";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="214"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Suction Casing' and week = 14";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="215"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Suction Casing' and week = 15";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="216"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Suction Casing' and week = 16";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="217"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Suction Casing' and week = 17";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="218"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Suction Casing' and week = 18";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="219"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Suction Casing' and week = 19";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="220"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Suction Casing' and week = 20";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="221"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Suction Casing' and week = 21";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="222"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Suction Casing' and week = 22";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="223"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Suction Casing' and week = 23";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="224"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Suction Casing' and week = 24";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="225"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Suction Casing' and week = 25";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="226"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Suction Casing' and week = 26";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
                             </tr>
                             <tr>
                             <tr>
@@ -199,352 +511,2068 @@ if (!$login){
                                 <td id="p3">DELIVERY CASING</td>
                                 <td>3</td>
                                 <td>2</td>
-                                <td id="31"></td>
-                                <td id="32"></td>
-                                <td id="33"></td>
-                                <td id="34"></td>
-                                <td id="35"></td>
-                                <td id="36"></td>
-                                <td id="37"></td>
-                                <td id="38"></td>
-                                <td id="39"></td>
-                                <td id="310"></td>
-                                <td id="311"></td>
-                                <td id="312"></td>
-                                <td id="313"></td>
-                                <td id="314"></td>
-                                <td id="315"></td>
-                                <td id="316"></td>
-                                <td id="317"></td>
-                                <td id="318"></td>
-                                <td id="319"></td>
-                                <td id="320"></td>
-                                <td id="321"></td>
-                                <td id="322"></td>
-                                <td id="323"></td>
-                                <td id="324"></td>
-                                <td id="325"></td>
-                                <td id="326"></td>
+                                <td id="31"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Delivery Casing' and week = 1";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="32"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Delivery Casing' and week = 2";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="33"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Delivery Casing' and week = 3";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="34"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Delivery Casing' and week = 4";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="35"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Delivery Casing' and week = 5";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="36"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Delivery Casing' and week = 6";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="37"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Delivery Casing' and week = 7";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="38"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Delivery Casing' and week = 8";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="39"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Delivery Casing' and week = 9";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="310"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Delivery Casing' and week = 10";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="311"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Delivery Casing' and week = 11";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="312"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Delivery Casing' and week = 12";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="313"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Delivery Casing' and week = 13";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="314"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Delivery Casing' and week = 14";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="315"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Delivery Casing' and week = 15";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="316"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Delivery Casing' and week = 16";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="317"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Delivery Casing' and week = 17";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="318"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Delivery Casing' and week = 18";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="319"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Delivery Casing' and week = 19";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="320"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Delivery Casing' and week = 20";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="321"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Delivery Casing' and week = 21";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="322"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Delivery Casing' and week = 22";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="323"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Delivery Casing' and week = 23";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="324"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Delivery Casing' and week = 24";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="325"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Delivery Casing' and week = 25";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="326"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Delivery Casing' and week = 26";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
                             </tr>
                             <tr>
                                 <td>4</td>
                                 <td id="p4">RETURN CASING</td>
                                 <td>3</td>
                                 <td>2</td>
-                                <td id="41"></td>
-                                <td id="42"></td>
-                                <td id="43"></td>
-                                <td id="44"></td>
-                                <td id="45"></td>
-                                <td id="46"></td>
-                                <td id="47"></td>
-                                <td id="48"></td>
-                                <td id="49"></td>
-                                <td id="410"></td>
-                                <td id="411"></td>
-                                <td id="412"></td>
-                                <td id="413"></td>
-                                <td id="414"></td>
-                                <td id="415"></td>
-                                <td id="416"></td>
-                                <td id="417"></td>
-                                <td id="418"></td>
-                                <td id="419"></td>
-                                <td id="420"></td>
-                                <td id="421"></td>
-                                <td id="422"></td>
-                                <td id="423"></td>
-                                <td id="424"></td>
-                                <td id="425"></td>
-                                <td id="426"></td>
+                                <td id="41"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Return Casing' and week = 1";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="42"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Return Casing' and week = 2";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="43"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Return Casing' and week = 3";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="44"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Return Casing' and week = 4";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="45"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Return Casing' and week = 5";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="46"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Return Casing' and week = 6";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="47"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Return Casing' and week = 7";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="48"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Return Casing' and week = 8";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="49"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Return Casing' and week = 9";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="410"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Return Casing' and week = 10";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="411"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Return Casing' and week = 11";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="412"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Return Casing' and week = 12";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="413"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Return Casing' and week = 13";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="414"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Return Casing' and week = 14";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="415"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Return Casing' and week = 15";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="416"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Return Casing' and week = 16";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="417"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Return Casing' and week = 17";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="418"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Return Casing' and week = 18";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="419"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Return Casing' and week = 19";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="420"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Return Casing' and week = 20";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="421"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Return Casing' and week = 21";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="422"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Return Casing' and week = 22";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="423"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Return Casing' and week = 23";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="424"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Return Casing' and week = 24";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="425"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Return Casing' and week = 25";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="426"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Return Casing' and week = 26";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
                             </tr>
                             <tr>
                                 <td>5</td>
                                 <td id="p5">SEAL HOUSING</td>
                                 <td>20</td>
                                 <td>20</td>
-                                <td id="51"></td>
-                                <td id="52"></td>
-                                <td id="53"></td>
-                                <td id="54"></td>
-                                <td id="55"></td>
-                                <td id="56"></td>
-                                <td id="57"></td>
-                                <td id="58"></td>
-                                <td id="59"></td>
-                                <td id="510"></td>
-                                <td id="511"></td>
-                                <td id="512"></td>
-                                <td id="513"></td>
-                                <td id="514"></td>
-                                <td id="515"></td>
-                                <td id="516"></td>
-                                <td id="517"></td>
-                                <td id="518"></td>
-                                <td id="519"></td>
-                                <td id="520"></td>
-                                <td id="521"></td>
-                                <td id="522"></td>
-                                <td id="523"></td>
-                                <td id="524"></td>
-                                <td id="525"></td>
-                                <td id="526"></td>
+                                <td id="51"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Seal Housing' and week = 1";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="52"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Seal Housing' and week = 2";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="53"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Seal Housing' and week = 3";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="54"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Seal Housing' and week = 4";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="55"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Seal Housing' and week = 5";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="56"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Seal Housing' and week = 6";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="57"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Seal Housing' and week = 7";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="58"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Seal Housing' and week = 8";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="59"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Seal Housing' and week = 9";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="510"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Seal Housing' and week = 10";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="511"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Seal Housing' and week = 11";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="512"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Seal Housing' and week = 12";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="513"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Seal Housing' and week = 13";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="514"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Seal Housing' and week = 14";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="515"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Seal Housing' and week = 15";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="516"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Seal Housing' and week = 16";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="517"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Seal Housing' and week = 17";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="518"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Seal Housing' and week = 18";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="519"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Seal Housing' and week = 19";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="520"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Seal Housing' and week = 20";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="521"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Seal Housing' and week = 21";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="522"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Seal Housing' and week = 22";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="523"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Seal Housing' and week = 23";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="524"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Seal Housing' and week = 24";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="525"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Seal Housing' and week = 25";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="526"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Seal Housing' and week = 26";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
                             </tr>
                             <tr>
                                 <td>6</td>
                                 <td id="p6">CASE PART</td>
                                 <td>6</td>
                                 <td>6</td>
-                                <td id="61"></td>
-                                <td id="62"></td>
-                                <td id="63"></td>
-                                <td id="64"></td>
-                                <td id="65"></td>
-                                <td id="66"></td>
-                                <td id="67"></td>
-                                <td id="68"></td>
-                                <td id="69"></td>
-                                <td id="610"></td>
-                                <td id="611"></td>
-                                <td id="612"></td>
-                                <td id="613"></td>
-                                <td id="614"></td>
-                                <td id="615"></td>
-                                <td id="616"></td>
-                                <td id="617"></td>
-                                <td id="618"></td>
-                                <td id="619"></td>
-                                <td id="620"></td>
-                                <td id="621"></td>
-                                <td id="622"></td>
-                                <td id="623"></td>
-                                <td id="624"></td>
-                                <td id="625"></td>
-                                <td id="626"></td>
+                                <td id="61"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Case Part' and week = 1";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="62"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Case Part' and week = 2";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="63"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Case Part' and week = 3";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="64"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Case Part' and week = 4";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="65"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Case Part' and week = 5";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="66"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Case Part' and week = 6";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="67"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Case Part' and week = 7";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="68"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Case Part' and week = 8";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="69"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Case Part' and week = 9";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="610"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Case Part' and week = 10";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="611"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Case Part' and week = 11";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="612"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Case Part' and week = 12";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="613"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Case Part' and week = 13";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="614"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Case Part' and week = 14";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="615"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Case Part' and week = 15";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="616"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Case Part' and week = 16";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="617"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Case Part' and week = 17";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="618"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Case Part' and week = 18";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="619"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Case Part' and week = 19";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="620"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Case Part' and week = 20";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="621"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Case Part' and week = 21";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="622"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Case Part' and week = 22";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="623"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Case Part' and week = 23";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="624"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Case Part' and week = 24";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="625"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Case Part' and week = 25";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="626"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Case Part' and week = 26";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
                             </tr>
                             <tr>
                                 <td>7</td>
                                 <td id="p7">DELIVERY COVER</td>
                                 <td>3</td>
                                 <td>3</td>
-                                <td id="71"></td>
-                                <td id="72"></td>
-                                <td id="73"></td>
-                                <td id="75"></td>
-                                <td id="74"></td>
-                                <td id="76"></td>
-                                <td id="77"></td>
-                                <td id="78"></td>
-                                <td id="79"></td>
-                                <td id="710"></td>
-                                <td id="711"></td>
-                                <td id="712"></td>
-                                <td id="713"></td>
-                                <td id="714"></td>
-                                <td id="715"></td>
-                                <td id="716"></td>
-                                <td id="717"></td>
-                                <td id="718"></td>
-                                <td id="719"></td>
-                                <td id="720"></td>
-                                <td id="721"></td>
-                                <td id="722"></td>
-                                <td id="723"></td>
-                                <td id="724"></td>
-                                <td id="725"></td>
-                                <td id="726"></td>
+                                <td id="71"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Delivery Cover' and week = 1";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="72"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Delivery Cover' and week = 2";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="73"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Delivery Cover' and week = 3";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="74"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Delivery Cover' and week = 4";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="75"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Delivery Cover' and week = 5";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="76"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Delivery Cover' and week = 6";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="77"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Delivery Cover' and week = 7";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="78"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Delivery Cover' and week = 8";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="79"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Delivery Cover' and week = 9";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="710"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Delivery Cover' and week = 10";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="711"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Delivery Cover' and week = 11";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="712"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Delivery Cover' and week = 12";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="713"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Delivery Cover' and week = 13";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="714"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Delivery Cover' and week = 14";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="715"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Delivery Cover' and week = 15";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="716"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Delivery Cover' and week = 16";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="717"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Delivery Cover' and week = 17";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="718"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Delivery Cover' and week = 18";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="719"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Delivery Cover' and week = 19";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="720"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Delivery Cover' and week = 20";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="721"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Delivery Cover' and week = 21";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="722"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Delivery Cover' and week = 22";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="723"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Delivery Cover' and week = 23";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="724"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Delivery Cover' and week = 24";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="725"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Delivery Cover' and week = 25";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="726"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Delivery Cover' and week = 26";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
                             </tr>
                             <tr>
                                 <td>8</td>
                                 <td id="p8">DIFFUSER/GUIDE</td>
                                 <td>3</td>
                                 <td>3</td>
-                                <td id="81"></td>
-                                <td id="82"></td>
-                                <td id="83"></td>
-                                <td id="84"></td>
-                                <td id="85"></td>
-                                <td id="86"></td>
-                                <td id="87"></td>
-                                <td id="88"></td>
-                                <td id="89"></td>
-                                <td id="810"></td>
-                                <td id="811"></td>
-                                <td id="812"></td>
-                                <td id="813"></td>
-                                <td id="814"></td>
-                                <td id="815"></td>
-                                <td id="816"></td>
-                                <td id="817"></td>
-                                <td id="818"></td>
-                                <td id="819"></td>
-                                <td id="820"></td>
-                                <td id="821"></td>
-                                <td id="822"></td>
-                                <td id="823"></td>
-                                <td id="824"></td>
-                                <td id="825"></td>
-                                <td id="826"></td>
+                                <td id="81"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Diffuser/Guide' and week = 1";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="82"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Diffuser/Guide' and week = 2";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="83"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Diffuser/Guide' and week = 3";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="84"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Diffuser/Guide' and week = 4";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="85"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Diffuser/Guide' and week = 5";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="86"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Diffuser/Guide' and week = 6";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="87"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Diffuser/Guide' and week = 7";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="88"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Diffuser/Guide' and week = 8";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="89"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Diffuser/Guide' and week = 9";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="810"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Diffuser/Guide' and week = 10";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="811"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Diffuser/Guide' and week = 11";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="812"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Diffuser/Guide' and week = 12";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="813"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Diffuser/Guide' and week = 13";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="814"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Diffuser/Guide' and week = 14";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="815"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Diffuser/Guide' and week = 15";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="816"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Diffuser/Guide' and week = 16";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="817"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Diffuser/Guide' and week = 17";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="818"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Diffuser/Guide' and week = 18";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="819"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Diffuser/Guide' and week = 19";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="820"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Diffuser/Guide' and week = 20";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="821"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Diffuser/Guide' and week = 21";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="822"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Diffuser/Guide' and week = 22";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="823"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Diffuser/Guide' and week = 23";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="824"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Diffuser/Guide' and week = 24";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="825"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Diffuser/Guide' and week = 25";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="826"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Diffuser/Guide' and week = 26";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
                             </tr>
                             <tr>
                                 <td>9</td>
                                 <td id="p9">BEARING COVER/CARRIER/BODY</td>
                                 <td>8</td>
                                 <td>8</td>
-                                <td id="91"></td>
-                                <td id="92"></td>
-                                <td id="93"></td>
-                                <td id="94"></td>
-                                <td id="95"></td>
-                                <td id="96"></td>
-                                <td id="97"></td>
-                                <td id="98"></td>
-                                <td id="99"></td>
-                                <td id="910"></td>
-                                <td id="911"></td>
-                                <td id="912"></td>
-                                <td id="913"></td>
-                                <td id="914"></td>
-                                <td id="915"></td>
-                                <td id="916"></td>
-                                <td id="917"></td>
-                                <td id="918"></td>
-                                <td id="919"></td>
-                                <td id="920"></td>
-                                <td id="921"></td>
-                                <td id="922"></td>
-                                <td id="923"></td>
-                                <td id="924"></td>
-                                <td id="925"></td>
-                                <td id="926"></td>
+                                <td id="91"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Bearing Cover/Carrier/Body' and week = 1";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="92"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Bearing Cover/Carrier/Body' and week = 2";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="93"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Bearing Cover/Carrier/Body' and week = 3";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="94"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Bearing Cover/Carrier/Body' and week = 4";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="95"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Bearing Cover/Carrier/Body' and week = 5";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="96"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Bearing Cover/Carrier/Body' and week = 6";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="97"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Bearing Cover/Carrier/Body' and week = 7";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="98"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Bearing Cover/Carrier/Body' and week = 8";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="99"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Bearing Cover/Carrier/Body' and week = 9";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="910"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Bearing Cover/Carrier/Body' and week = 10";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="911"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Bearing Cover/Carrier/Body' and week = 11";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="912"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Bearing Cover/Carrier/Body' and week = 12";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="913"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Bearing Cover/Carrier/Body' and week = 13";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="914"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Bearing Cover/Carrier/Body' and week = 14";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="915"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Bearing Cover/Carrier/Body' and week = 15";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="916"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Bearing Cover/Carrier/Body' and week = 16";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="917"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Bearing Cover/Carrier/Body' and week = 17";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="918"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Bearing Cover/Carrier/Body' and week = 18";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="919"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Bearing Cover/Carrier/Body' and week = 19";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="920"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Bearing Cover/Carrier/Body' and week = 20";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="921"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Bearing Cover/Carrier/Body' and week = 21";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="922"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Bearing Cover/Carrier/Body' and week = 22";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="923"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Bearing Cover/Carrier/Body' and week = 23";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="924"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Bearing Cover/Carrier/Body' and week = 24";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="925"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Bearing Cover/Carrier/Body' and week = 25";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="926"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Bearing Cover/Carrier/Body' and week = 26";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
                             </tr>
                             <tr>
                                 <td>10</td>
                                 <td id="p10">BEARING BRACKET (NORMAL TYPE)</td>
                                 <td>8</td>
                                 <td>10</td>
-                                <td id="101"></td>
-                                <td id="102"></td>
-                                <td id="103"></td>
-                                <td id="104"></td>
-                                <td id="105"></td>
-                                <td id="106"></td>
-                                <td id="107"></td>
-                                <td id="108"></td>
-                                <td id="109"></td>
-                                <td id="1010"></td>
-                                <td id="1011"></td>
-                                <td id="1012"></td>
-                                <td id="1013"></td>
-                                <td id="1014"></td>
-                                <td id="1015"></td>
-                                <td id="1016"></td>
-                                <td id="1017"></td>
-                                <td id="1018"></td>
-                                <td id="1019"></td>
-                                <td id="1020"></td>
-                                <td id="1021"></td>
-                                <td id="1022"></td>
-                                <td id="1023"></td>
-                                <td id="1024"></td>
-                                <td id="1025"></td>
-                                <td id="1026"></td>
+                                <td id="101"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Bearing Bracket (Normal Type)' and week = 1";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="102"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Bearing Bracket (Normal Type)' and week = 2";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="103"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Bearing Bracket (Normal Type)' and week = 3";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="104"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Bearing Bracket (Normal Type)' and week = 4";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="105"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Bearing Bracket (Normal Type)' and week = 5";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="106"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Bearing Bracket (Normal Type)' and week = 6";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="107"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Bearing Bracket (Normal Type)' and week = 7";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="108"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Bearing Bracket (Normal Type)' and week = 8";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="109"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Bearing Bracket (Normal Type)' and week = 9";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="1010"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Bearing Bracket (Normal Type)' and week = 10";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="1011"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Bearing Bracket (Normal Type)' and week = 11";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="1012"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Bearing Bracket (Normal Type)' and week = 12";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="1013"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Bearing Bracket (Normal Type)' and week = 13";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="1014"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Bearing Bracket (Normal Type)' and week = 14";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="1015"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Bearing Bracket (Normal Type)' and week = 15";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="1016"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Bearing Bracket (Normal Type)' and week = 16";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="1017"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Bearing Bracket (Normal Type)' and week = 17";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="1018"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Bearing Bracket (Normal Type)' and week = 18";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="1019"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Bearing Bracket (Normal Type)' and week = 19";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="1020"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Bearing Bracket (Normal Type)' and week = 20";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="1021"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Bearing Bracket (Normal Type)' and week = 21";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="1022"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Bearing Bracket (Normal Type)' and week = 22";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="1023"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Bearing Bracket (Normal Type)' and week = 23";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="1024"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Bearing Bracket (Normal Type)' and week = 24";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="1025"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Bearing Bracket (Normal Type)' and week = 25";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="1026"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Bearing Bracket (Normal Type)' and week = 26";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
                             </tr>
                             <tr>
                                 <td>11</td>
                                 <td id="p11">BEARING BRACKET (SPLIT TYPE)</td>
                                 <td>3</td>
                                 <td>3</td>
-                                <td id="1101"></td>
-                                <td id="1102"></td>
-                                <td id="1103"></td>
-                                <td id="1104"></td>
-                                <td id="1105"></td>
-                                <td id="1106"></td>
-                                <td id="1107"></td>
-                                <td id="1108"></td>
-                                <td id="1109"></td>
-                                <td id="1110"></td>
-                                <td id="1111"></td>
-                                <td id="1112"></td>
-                                <td id="1113"></td>
-                                <td id="1114"></td>
-                                <td id="1115"></td>
-                                <td id="1116"></td>
-                                <td id="1117"></td>
-                                <td id="1118"></td>
-                                <td id="1119"></td>
-                                <td id="1120"></td>
-                                <td id="1121"></td>
-                                <td id="1122"></td>
-                                <td id="1123"></td>
-                                <td id="1124"></td>
-                                <td id="1125"></td>
-                                <td id="1126"></td>
+                                <td id="1101"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Bearing Bracket (Split Type)' and week = 1";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="1102"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Bearing Bracket (Split Type)' and week = 2";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="1103"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Bearing Bracket (Split Type)' and week = 3";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="1104"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Bearing Bracket (Split Type)' and week = 4";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="1105"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Bearing Bracket (Split Type)' and week = 5";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="1106"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Bearing Bracket (Split Type)' and week = 6";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="1107"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Bearing Bracket (Split Type)' and week = 7";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="1108"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Bearing Bracket (Split Type)' and week = 8";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="1109"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Bearing Bracket (Split Type)' and week = 9";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="1110"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Bearing Bracket (Split Type)' and week = 10";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="1111"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Bearing Bracket (Split Type)' and week = 11";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="1112"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Bearing Bracket (Split Type)' and week = 12";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="1113"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Bearing Bracket (Split Type)' and week = 13";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="1114"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Bearing Bracket (Split Type)' and week = 14";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="1115"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Bearing Bracket (Split Type)' and week = 15";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="1116"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Bearing Bracket (Split Type)' and week = 16";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="1117"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Bearing Bracket (Split Type)' and week = 17";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="1118"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Bearing Bracket (Split Type)' and week = 18";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="1119"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Bearing Bracket (Split Type)' and week = 19";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="1120"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Bearing Bracket (Split Type)' and week = 20";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="1121"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Bearing Bracket (Split Type)' and week = 21";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="1122"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Bearing Bracket (Split Type)' and week = 22";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="1123"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Bearing Bracket (Split Type)' and week = 23";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="1124"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Bearing Bracket (Split Type)' and week = 24";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="1125"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Bearing Bracket (Split Type)' and week = 25";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="1126"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Bearing Bracket (Split Type)' and week = 26";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
                             </tr>
                             <tr>
                                 <td>12</td>
                                 <td id="p12">INTERSTAGE CROSSOVER</td>
                                 <td>1</td>
                                 <td>1</td>
-                                <td id="1201"></td>
-                                <td id="1202"></td>
-                                <td id="1203"></td>
-                                <td id="1204"></td>
-                                <td id="1205"></td>
-                                <td id="1206"></td>
-                                <td id="1207"></td>
-                                <td id="1208"></td>
-                                <td id="1209"></td>
-                                <td id="1210"></td>
-                                <td id="1211"></td>
-                                <td id="1212"></td>
-                                <td id="1213"></td>
-                                <td id="1214"></td>
-                                <td id="1215"></td>
-                                <td id="1216"></td>
-                                <td id="1217"></td>
-                                <td id="1218"></td>
-                                <td id="1219"></td>
-                                <td id="1220"></td>
-                                <td id="1221"></td>
-                                <td id="1222"></td>
-                                <td id="1223"></td>
-                                <td id="1224"></td>
-                                <td id="1225"></td>
-                                <td id="1226"></td>
+                                <td id="1201"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Interstage Crossover' and week = 1";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="1202"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Interstage Crossover' and week = 2";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="1203"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Interstage Crossover' and week = 3";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="1204"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Interstage Crossover' and week = 4";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="1205"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Interstage Crossover' and week = 5";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="1206"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Interstage Crossover' and week = 6";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="1207"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Interstage Crossover' and week = 7";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="1208"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Interstage Crossover' and week = 8";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="1209"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Interstage Crossover' and week = 9";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="1210"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Interstage Crossover' and week = 10";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="1211"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Interstage Crossover' and week = 11";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="1212"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Interstage Crossover' and week = 12";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="1213"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Interstage Crossover' and week = 13";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="1214"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Interstage Crossover' and week = 14";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="1215"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Interstage Crossover' and week = 15";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="1216"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Interstage Crossover' and week = 16";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="1217"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Interstage Crossover' and week = 17";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="1218"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Interstage Crossover' and week = 18";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="1219"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Interstage Crossover' and week = 19";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="1220"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Interstage Crossover' and week = 20";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="1221"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Interstage Crossover' and week = 21";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="1222"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Interstage Crossover' and week = 22";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="1223"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Interstage Crossover' and week = 23";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="1224"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Interstage Crossover' and week = 24";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="1225"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Interstage Crossover' and week = 25";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="1226"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Interstage Crossover' and week = 26";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
                             </tr>
                             <tr>
                                 <td>13</td>
                                 <td id="p13">BEARING BRACKET LANTERN</td>
                                 <td></td>
                                 <td></td>
-                                <td id="1301"></td>
-                                <td id="1302"></td>
-                                <td id="1303"></td>
-                                <td id="1304"></td>
-                                <td id="1305"></td>
-                                <td id="1306"></td>
-                                <td id="1307"></td>
-                                <td id="1308"></td>
-                                <td id="1309"></td>
-                                <td id="1310"></td>
-                                <td id="1311"></td>
-                                <td id="1312"></td>
-                                <td id="1313"></td>
-                                <td id="1314"></td>
-                                <td id="1315"></td>
-                                <td id="1316"></td>
-                                <td id="1317"></td>
-                                <td id="1318"></td>
-                                <td id="1319"></td>
-                                <td id="1320"></td>
-                                <td id="1321"></td>
-                                <td id="1322"></td>
-                                <td id="1323"></td>
-                                <td id="1324"></td>
-                                <td id="1325"></td>
-                                <td id="1326"></td>
+                                <td id="1301"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Bearing Bracket Lantern' and week = 1";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="1302"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Bearing Bracket Lantern' and week = 2";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="1303"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Bearing Bracket Lantern' and week = 3";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="1304"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Bearing Bracket Lantern' and week = 4";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="1305"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Bearing Bracket Lantern' and week = 5";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="1306"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Bearing Bracket Lantern' and week = 6";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="1307"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Bearing Bracket Lantern' and week = 7";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="1308"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Bearing Bracket Lantern' and week = 8";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="1309"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Bearing Bracket Lantern' and week = 9";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="1310"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Bearing Bracket Lantern' and week = 10";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="1311"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Bearing Bracket Lantern' and week = 11";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="1312"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Bearing Bracket Lantern' and week = 12";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="1313"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Bearing Bracket Lantern' and week = 13";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="1314"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Bearing Bracket Lantern' and week = 14";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="1315"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Bearing Bracket Lantern' and week = 15";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="1316"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Bearing Bracket Lantern' and week = 16";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="1317"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Bearing Bracket Lantern' and week = 17";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="1318"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Bearing Bracket Lantern' and week = 18";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="1319"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Bearing Bracket Lantern' and week = 19";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="1320"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Bearing Bracket Lantern' and week = 20";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="1321"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Bearing Bracket Lantern' and week = 21";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="1322"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Bearing Bracket Lantern' and week = 22";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="1323"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Bearing Bracket Lantern' and week = 23";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="1324"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Bearing Bracket Lantern' and week = 24";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="1325"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Bearing Bracket Lantern' and week = 25";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
+                                <td id="1326"><?php $c11 = 0;
+                                    $query = "SELECT * FROM card_details WHERE item_name ='Bearing Bracket Lantern' and week = 26";
+                                    $result = mysqli_query($conn, $query);
+                                    while (mysqli_fetch_assoc($result)){
+                                        $c11 += 1;
+                                    }
+                                    echo $c11; ?></td>
                             </tr>
                             <tr id="weekly_report">
                                 <th colspan="4">WEEKLY DELIVERY REPORT</th>
@@ -652,7 +2680,7 @@ if (!$login){
             </thead>
             <tbody>
                 <?php
-                $get11 = "SELECT * FROM card_details WHERE item_name ='Stable Casing' and week = 1";
+                $get11 = "SELECT * FROM card_details WHERE item_name ='Stage Casing' and week = 1";
                 $resget11 = mysqli_query($conn, $get11);
                 mysqli_num_rows($resget11);
                 while ($reget11 = mysqli_fetch_assoc($resget11)){
@@ -719,7 +2747,7 @@ if (!$login){
             </thead>
             <tbody>
             <?php
-            $get11 = "SELECT * FROM card_details WHERE item_name ='Stable Casing' and week = 2";
+            $get11 = "SELECT * FROM card_details WHERE item_name ='Stage Casing' and week = 2";
             $resget11 = mysqli_query($conn, $get11);
             mysqli_num_rows($resget11);
             while ($reget11 = mysqli_fetch_assoc($resget11)){
@@ -786,7 +2814,7 @@ if (!$login){
             </thead>
             <tbody>
             <?php
-            $get11 = "SELECT * FROM card_details WHERE item_name ='Stable Casing' and week = 3";
+            $get11 = "SELECT * FROM card_details WHERE item_name ='Stage Casing' and week = 3";
             $resget11 = mysqli_query($conn, $get11);
             mysqli_num_rows($resget11);
             while ($reget11 = mysqli_fetch_assoc($resget11)){
@@ -853,7 +2881,7 @@ if (!$login){
             </thead>
             <tbody>
             <?php
-            $get11 = "SELECT * FROM card_details WHERE item_name ='Stable Casing' and week = 4";
+            $get11 = "SELECT * FROM card_details WHERE item_name ='Stage Casing' and week = 4";
             $resget11 = mysqli_query($conn, $get11);
             mysqli_num_rows($resget11);
             while ($reget11 = mysqli_fetch_assoc($resget11)){
@@ -920,7 +2948,7 @@ if (!$login){
             </thead>
             <tbody>
             <?php
-            $get11 = "SELECT * FROM card_details WHERE item_name ='Stable Casing' and week = 5";
+            $get11 = "SELECT * FROM card_details WHERE item_name ='Stage Casing' and week = 5";
             $resget11 = mysqli_query($conn, $get11);
             mysqli_num_rows($resget11);
             while ($reget11 = mysqli_fetch_assoc($resget11)){
@@ -987,7 +3015,7 @@ if (!$login){
             </thead>
             <tbody>
             <?php
-            $get11 = "SELECT * FROM card_details WHERE item_name ='Stable Casing' and week = 6";
+            $get11 = "SELECT * FROM card_details WHERE item_name ='Stage Casing' and week = 6";
             $resget11 = mysqli_query($conn, $get11);
             mysqli_num_rows($resget11);
             while ($reget11 = mysqli_fetch_assoc($resget11)){
@@ -1056,7 +3084,7 @@ if (!$login){
             </thead>
             <tbody>
             <?php
-            $get11 = "SELECT * FROM card_details WHERE item_name ='Stable Casing' and week = 7";
+            $get11 = "SELECT * FROM card_details WHERE item_name ='Stage Casing' and week = 7";
             $resget11 = mysqli_query($conn, $get11);
             mysqli_num_rows($resget11);
             while ($reget11 = mysqli_fetch_assoc($resget11)){
@@ -1123,7 +3151,7 @@ if (!$login){
             </thead>
             <tbody>
             <?php
-            $get11 = "SELECT * FROM card_details WHERE item_name ='Stable Casing' and week = 8";
+            $get11 = "SELECT * FROM card_details WHERE item_name ='Stage Casing' and week = 8";
             $resget11 = mysqli_query($conn, $get11);
             mysqli_num_rows($resget11);
             while ($reget11 = mysqli_fetch_assoc($resget11)){
@@ -1190,7 +3218,7 @@ if (!$login){
             </thead>
             <tbody>
             <?php
-            $get11 = "SELECT * FROM card_details WHERE item_name ='Stable Casing' and week = 9";
+            $get11 = "SELECT * FROM card_details WHERE item_name ='Stage Casing' and week = 9";
             $resget11 = mysqli_query($conn, $get11);
             mysqli_num_rows($resget11);
             while ($reget11 = mysqli_fetch_assoc($resget11)){
@@ -1257,7 +3285,7 @@ if (!$login){
             </thead>
             <tbody>
             <?php
-            $get11 = "SELECT * FROM card_details WHERE item_name ='Stable Casing' and week = 10";
+            $get11 = "SELECT * FROM card_details WHERE item_name ='Stage Casing' and week = 10";
             $resget11 = mysqli_query($conn, $get11);
             mysqli_num_rows($resget11);
             while ($reget11 = mysqli_fetch_assoc($resget11)){
@@ -1324,7 +3352,7 @@ if (!$login){
             </thead>
             <tbody>
             <?php
-            $get11 = "SELECT * FROM card_details WHERE item_name ='Stable Casing' and week = 11";
+            $get11 = "SELECT * FROM card_details WHERE item_name ='Stage Casing' and week = 11";
             $resget11 = mysqli_query($conn, $get11);
             mysqli_num_rows($resget11);
             while ($reget11 = mysqli_fetch_assoc($resget11)){
@@ -1391,7 +3419,7 @@ if (!$login){
             </thead>
             <tbody>
             <?php
-            $get11 = "SELECT * FROM card_details WHERE item_name ='Stable Casing' and week = 12";
+            $get11 = "SELECT * FROM card_details WHERE item_name ='Stage Casing' and week = 12";
             $resget11 = mysqli_query($conn, $get11);
             mysqli_num_rows($resget11);
             while ($reget11 = mysqli_fetch_assoc($resget11)){
@@ -1458,7 +3486,7 @@ if (!$login){
             </thead>
             <tbody>
             <?php
-            $get11 = "SELECT * FROM card_details WHERE item_name ='Stable Casing' and week = 13";
+            $get11 = "SELECT * FROM card_details WHERE item_name ='Stage Casing' and week = 13";
             $resget11 = mysqli_query($conn, $get11);
             mysqli_num_rows($resget11);
             while ($reget11 = mysqli_fetch_assoc($resget11)){
@@ -1525,7 +3553,7 @@ if (!$login){
             </thead>
             <tbody>
             <?php
-            $get11 = "SELECT * FROM card_details WHERE item_name ='Stable Casing' and week = 14";
+            $get11 = "SELECT * FROM card_details WHERE item_name ='Stage Casing' and week = 14";
             $resget11 = mysqli_query($conn, $get11);
             mysqli_num_rows($resget11);
             while ($reget11 = mysqli_fetch_assoc($resget11)){
@@ -1592,7 +3620,7 @@ if (!$login){
             </thead>
             <tbody>
             <?php
-            $get11 = "SELECT * FROM card_details WHERE item_name ='Stable Casing' and week = 15";
+            $get11 = "SELECT * FROM card_details WHERE item_name ='Stage Casing' and week = 15";
             $resget11 = mysqli_query($conn, $get11);
             mysqli_num_rows($resget11);
             while ($reget11 = mysqli_fetch_assoc($resget11)){
@@ -1659,7 +3687,7 @@ if (!$login){
             </thead>
             <tbody>
             <?php
-            $get11 = "SELECT * FROM card_details WHERE item_name ='Stable Casing' and week = 16";
+            $get11 = "SELECT * FROM card_details WHERE item_name ='Stage Casing' and week = 16";
             $resget11 = mysqli_query($conn, $get11);
             mysqli_num_rows($resget11);
             while ($reget11 = mysqli_fetch_assoc($resget11)){
@@ -1726,7 +3754,7 @@ if (!$login){
             </thead>
             <tbody>
             <?php
-            $get11 = "SELECT * FROM card_details WHERE item_name ='Stable Casing' and week = 17";
+            $get11 = "SELECT * FROM card_details WHERE item_name ='Stage Casing' and week = 17";
             $resget11 = mysqli_query($conn, $get11);
             mysqli_num_rows($resget11);
             while ($reget11 = mysqli_fetch_assoc($resget11)){
@@ -1793,7 +3821,7 @@ if (!$login){
             </thead>
             <tbody>
             <?php
-            $get11 = "SELECT * FROM card_details WHERE item_name ='Stable Casing' and week = 18";
+            $get11 = "SELECT * FROM card_details WHERE item_name ='Stage Casing' and week = 18";
             $resget11 = mysqli_query($conn, $get11);
             mysqli_num_rows($resget11);
             while ($reget11 = mysqli_fetch_assoc($resget11)){
@@ -1860,7 +3888,7 @@ if (!$login){
             </thead>
             <tbody>
             <?php
-            $get11 = "SELECT * FROM card_details WHERE item_name ='Stable Casing' and week = 19";
+            $get11 = "SELECT * FROM card_details WHERE item_name ='Stage Casing' and week = 19";
             $resget11 = mysqli_query($conn, $get11);
             mysqli_num_rows($resget11);
             while ($reget11 = mysqli_fetch_assoc($resget11)){
@@ -1927,7 +3955,7 @@ if (!$login){
             </thead>
             <tbody>
             <?php
-            $get11 = "SELECT * FROM card_details WHERE item_name ='Stable Casing' and week = 20";
+            $get11 = "SELECT * FROM card_details WHERE item_name ='Stage Casing' and week = 20";
             $resget11 = mysqli_query($conn, $get11);
             mysqli_num_rows($resget11);
             while ($reget11 = mysqli_fetch_assoc($resget11)){
@@ -1994,7 +4022,7 @@ if (!$login){
             </thead>
             <tbody>
             <?php
-            $get11 = "SELECT * FROM card_details WHERE item_name ='Stable Casing' and week = 21";
+            $get11 = "SELECT * FROM card_details WHERE item_name ='Stage Casing' and week = 21";
             $resget11 = mysqli_query($conn, $get11);
             mysqli_num_rows($resget11);
             while ($reget11 = mysqli_fetch_assoc($resget11)){
@@ -2061,7 +4089,7 @@ if (!$login){
             </thead>
             <tbody>
             <?php
-            $get11 = "SELECT * FROM card_details WHERE item_name ='Stable Casing' and week = 22";
+            $get11 = "SELECT * FROM card_details WHERE item_name ='Stage Casing' and week = 22";
             $resget11 = mysqli_query($conn, $get11);
             mysqli_num_rows($resget11);
             while ($reget11 = mysqli_fetch_assoc($resget11)){
@@ -2128,7 +4156,7 @@ if (!$login){
             </thead>
             <tbody>
             <?php
-            $get11 = "SELECT * FROM card_details WHERE item_name ='Stable Casing' and week = 23";
+            $get11 = "SELECT * FROM card_details WHERE item_name ='Stage Casing' and week = 23";
             $resget11 = mysqli_query($conn, $get11);
             mysqli_num_rows($resget11);
             while ($reget11 = mysqli_fetch_assoc($resget11)){
@@ -2195,7 +4223,7 @@ if (!$login){
             </thead>
             <tbody>
             <?php
-            $get11 = "SELECT * FROM card_details WHERE item_name ='Stable Casing' and week = 24";
+            $get11 = "SELECT * FROM card_details WHERE item_name ='Stage Casing' and week = 24";
             $resget11 = mysqli_query($conn, $get11);
             mysqli_num_rows($resget11);
             while ($reget11 = mysqli_fetch_assoc($resget11)){
@@ -2262,7 +4290,7 @@ if (!$login){
             </thead>
             <tbody>
             <?php
-            $get11 = "SELECT * FROM card_details WHERE item_name ='Stable Casing' and week = 25";
+            $get11 = "SELECT * FROM card_details WHERE item_name ='Stage Casing' and week = 25";
             $resget11 = mysqli_query($conn, $get11);
             mysqli_num_rows($resget11);
             while ($reget11 = mysqli_fetch_assoc($resget11)){
@@ -2329,7 +4357,7 @@ if (!$login){
             </thead>
             <tbody>
             <?php
-            $get11 = "SELECT * FROM card_details WHERE item_name ='Stable Casing' and week = 26";
+            $get11 = "SELECT * FROM card_details WHERE item_name ='Stage Casing' and week = 26";
             $resget11 = mysqli_query($conn, $get11);
             mysqli_num_rows($resget11);
             while ($reget11 = mysqli_fetch_assoc($resget11)){
@@ -23310,7 +25338,7 @@ if (!$login){
             </thead>
             <tbody>
             <?php
-            $get11 = "SELECT * FROM card_details WHERE item_name ='Stable Casing'";
+            $get11 = "SELECT * FROM card_details WHERE item_name ='Stage Casing'";
             $resget11 = mysqli_query($conn, $get11);
             mysqli_num_rows($resget11);
             while ($reget11 = mysqli_fetch_assoc($resget11)){
@@ -24644,7 +26672,7 @@ if (!$login){
     var r56 = document.getElementById("56");
     var r57 = document.getElementById("57");
     var r58 = document.getElementById("58");
-    var r59 = document.getElementById("51");
+    var r59 = document.getElementById("59");
     var r510 = document.getElementById("510");
     var r511 = document.getElementById("511");
     var r512 = document.getElementById("512");
@@ -24698,7 +26726,7 @@ if (!$login){
     var r76 = document.getElementById("76");
     var r77 = document.getElementById("77");
     var r78 = document.getElementById("78");
-    var r79 = document.getElementById("71");
+    var r79 = document.getElementById("79");
     var r710 = document.getElementById("710");
     var r711 = document.getElementById("711");
     var r712 = document.getElementById("712");
@@ -24752,7 +26780,7 @@ if (!$login){
     var r96 = document.getElementById("96");
     var r97 = document.getElementById("97");
     var r98 = document.getElementById("98");
-    var r99 = document.getElementById("91");
+    var r99 = document.getElementById("99");
     var r910 = document.getElementById("910");
     var r911 = document.getElementById("911");
     var r912 = document.getElementById("912");
@@ -24772,14 +26800,14 @@ if (!$login){
     var r926 = document.getElementById("926");
 
     var r101 = document.getElementById("101");
-    var r102 = document.getElementById("101");
-    var r103 = document.getElementById("101");
-    var r104 = document.getElementById("101");
-    var r105 = document.getElementById("101");
-    var r106 = document.getElementById("101");
-    var r107 = document.getElementById("101");
-    var r108 = document.getElementById("101");
-    var r109 = document.getElementById("101");
+    var r102 = document.getElementById("102");
+    var r103 = document.getElementById("103");
+    var r104 = document.getElementById("104");
+    var r105 = document.getElementById("105");
+    var r106 = document.getElementById("106");
+    var r107 = document.getElementById("107");
+    var r108 = document.getElementById("108");
+    var r109 = document.getElementById("109");
     var r1010 = document.getElementById("1010");
     var r1011 = document.getElementById("1011");
     var r1012 = document.getElementById("1012");
@@ -28480,6 +30508,6 @@ if (!$login){
 
     setTimeout(function() {
         location.reload();
-    }, 30000);
+    }, 360000);
 </script>
 </html>
